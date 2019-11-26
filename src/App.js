@@ -19,6 +19,9 @@ class App extends React.Component {
 
   submitTime(e) {
     e.preventDefault();
+    if (e.target.start.value === "" || e.target.finish.value === "") {
+      return;
+    }
     var timeStart = new Date("01/01/2019 " + e.target.start.value);
     var timeEnd = new Date("01/01/2019 " + e.target.finish.value);
 
@@ -104,7 +107,7 @@ class App extends React.Component {
 
           <br />
           <div class="row">
-            <div class="col s9">
+            <div class="col m9">
               <div class="card text-left">
                 <div class="card-content ">
                   <span class="card-title">
@@ -114,13 +117,13 @@ class App extends React.Component {
                   {this.state.entries ? (
                     this.state.entries.map(entry => (
                       <div className="row" key={entry.id}>
-                        <div class="input-field col s5">
+                        <div class="input-field col m5">
                           <h6>{entry.start}</h6>
                         </div>
-                        <div class="input-field col s5">
+                        <div class="input-field col m5">
                           <h6>{entry.finish}</h6>
                         </div>
-                        <div class="input-field col s2">
+                        <div class="input-field col m2">
                           <button
                             class="btn-flat"
                             onClick={() => {
@@ -138,7 +141,7 @@ class App extends React.Component {
 
                   <div className="row">
                     <form onSubmit={this.submitTime}>
-                      <div class="input-field col s5">
+                      <div class="input-field col m5">
                         <input
                           type="text"
                           name="start"
@@ -147,7 +150,7 @@ class App extends React.Component {
                         />
                         <label for="first_name">Start</label>
                       </div>
-                      <div class="input-field col s5">
+                      <div class="input-field col m5">
                         <input
                           type="text"
                           name="finish"
@@ -156,7 +159,7 @@ class App extends React.Component {
                         />
                         <label for="last_name">Finish</label>
                       </div>
-                      <div class="input-field col s2">
+                      <div class="input-field col m2">
                         <button type="submit" class="btn">
                           Add
                         </button>
@@ -166,7 +169,7 @@ class App extends React.Component {
                 </div>
               </div>
             </div>
-            <div class="col s3">
+            <div class="col m3">
               <div class="card fixed">
                 <div class="card-content padded">
                   <span class="card-title">Total Hours</span>
