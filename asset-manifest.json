@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/time-calculator/static/css/main.14fd1a6d.chunk.css",
-    "main.js": "/time-calculator/static/js/main.cc63f74b.chunk.js",
-    "main.js.map": "/time-calculator/static/js/main.cc63f74b.chunk.js.map",
+    "main.js": "/time-calculator/static/js/main.f9445c34.chunk.js",
+    "main.js.map": "/time-calculator/static/js/main.f9445c34.chunk.js.map",
     "runtime-main.js": "/time-calculator/static/js/runtime-main.5275a982.js",
     "runtime-main.js.map": "/time-calculator/static/js/runtime-main.5275a982.js.map",
     "static/js/2.20fe4424.chunk.js": "/time-calculator/static/js/2.20fe4424.chunk.js",
     "static/js/2.20fe4424.chunk.js.map": "/time-calculator/static/js/2.20fe4424.chunk.js.map",
     "index.html": "/time-calculator/index.html",
-    "precache-manifest.4ad8b3653cd880e2516ab1838105b9f0.js": "/time-calculator/precache-manifest.4ad8b3653cd880e2516ab1838105b9f0.js",
+    "precache-manifest.48175e1aad1cb689e9bf8b5046fc3ff3.js": "/time-calculator/precache-manifest.48175e1aad1cb689e9bf8b5046fc3ff3.js",
     "service-worker.js": "/time-calculator/service-worker.js",
     "static/css/main.14fd1a6d.chunk.css.map": "/time-calculator/static/css/main.14fd1a6d.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.5275a982.js",
     "static/js/2.20fe4424.chunk.js",
     "static/css/main.14fd1a6d.chunk.css",
-    "static/js/main.cc63f74b.chunk.js"
+    "static/js/main.f9445c34.chunk.js"
   ]
 }
